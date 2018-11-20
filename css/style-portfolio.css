@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+body {
+	font: 12px/1.6 Arial, Verdana, Tahoma, sans-serif;
+	color: #5d5d5d;
+	background: #f4f4f4;
+}
+
+a {
+	color: #fe9b00;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	padding-left: 28px;
+	background: url(../images/arrow.png) no-repeat 0 10px;
+	margin-bottom: 11px;
+}
+
+.active, a:hover {
+	color: #090909;
+}
+
+p {
+	margin: 8px 0;
+}
+
+
+#top-line {
+	background: #090909;
+	height: 16px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header {
+ padding: 20px 0 16px 0;
+ border-bottom: 1px solid #c0c0c0;
+ overflow: hidden;
+}
+
+#logo {
+	width: 183px;
+	height: 100px;
+	float: left;
+}
+
+#menu {
+	float: right;
+	margin-top: 40px;
+}
+
+#menu ul li {
+	float: left;
+	margin-left: 63px;
+}
+
+#content {
+	height: 650px;
+	padding-top: 20px;
+}
+
+
+#portfolio {
+	height: 680px;
+	margin-top: 20px;
+	padding-bottom: 33px;
+	overflow: hidden;
+}
+
+.portfolio-image {
+	width: 215px;
+	height: 135px;
+	float: left;
+	margin-right: 33px;
+}
+
+.portfolio-images {
+	width: 215px;
+	height: 135px;
+	float: left;
+	margin-top: 33px;
+	margin-right: 33px
+}
+
+#portfolio-image {
+	margin-right: 0;
+}
+
+#portfolio a:hover img { 
+ filter: alpha (Opacity=25);
+
+    opacity: 0.25;
+
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+
+#footer {
+	background: #e2e2e2;
+	padding: 20px 0 20px 0;
+}
+
+#footer-content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#footer-content a:hover {
+	text-decoration: underline;
+}
+
+#footer-content a {
+	color: #5d5d5d;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+#footer-content ul li {
+	float: left;
+	padding: 0 7px;
+	border-left: 1px solid #5d5d5d;
+	line-height: 1;
+}
+
+.clear {
+	clear: both;
+}
+
