@@ -1,13 +1,13 @@
 @import url(reset.css);
 
 body {
-	font: 12px/1.6 Arial, Verdana, Tahoma, sans-serif;
+	font: 14px/1.6 Museo Slab, slab-serif;
 	color: #5d5d5d;
-	background: #f4f4f4;
+	background: white;
 }
 
  a {
-	color: #fe9b00;
+	color: #bf3936;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -63,7 +63,7 @@ text-align: center;
 }
 
 #top-line {
-	background: #090909;
+	background: #bf3936;
 	height: 16px;
 }
 
@@ -77,6 +77,7 @@ text-align: center;
  padding: 20px 0 16px 0;
  border-bottom: 1px solid #c0c0c0;
  overflow: hidden;
+      margin-bottom: 10px;
 }
 
 #logo {
@@ -92,7 +93,7 @@ text-align: center;
 
 #menu ul li {
 	float: left;
-	margin-left: 63px;
+	margin-left: 92px;
 }
 
 #content {
@@ -102,7 +103,7 @@ text-align: center;
 }
 
 #footer {
-	background: #e2e2e2;
+	background: #e7b3b6;	
 	padding: 20px 0 20px 0;
 }
 
@@ -123,11 +124,15 @@ text-align: center;
 
 #footer-content ul li {
 	float: left;
-	padding: 0 7px;
-	border-left: 1px solid #5d5d5d;
+	padding-right: 30px;
 	line-height: 1;
 }
 
 .clear {
 	clear: both;
+}
+
+.card {
+	float: right;
+	margin-top: 18px
 }

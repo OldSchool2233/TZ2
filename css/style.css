@@ -1,13 +1,13 @@
 @import url(reset.css);
 
 body {
-	font: 12px/1.6 Arial, Verdana, Tahoma, sans-serif;
+	font: 14px/1.6 Museo Slab, slab-serif;
 	color: #5d5d5d;
-	background: #f4f4f4;
+	background: white;
 }
 
 a {
-	color: #fe9b00;
+	color: #bf3936;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -32,7 +32,7 @@ margin-bottom: 20px;
 }
 
 #top-line {
-	background: #090909;
+	background: #bf3936;
 	height: 16px;
 }
 
@@ -60,7 +60,7 @@ margin-bottom: 20px;
 
 #menu ul li {
 	float: left;
-	margin-left: 63px;
+	margin-left: 92px;
 }
 
 #header-image {
@@ -83,6 +83,7 @@ margin-bottom: 20px;
 	position: absolute;
 	left: 35px;
 	bottom: 68px;
+
 }
 
 #black-box p {
@@ -95,7 +96,7 @@ margin-bottom: 20px;
 }
 
 #black-box a:hover {
-	color: #fe9b00;
+	color: #999898;
 }
 
 #content {
@@ -120,11 +121,10 @@ margin-bottom: 20px;
 	font-weight: bold;
 	color: #090909;
 	text-transform: uppercase;
-	border-bottom: 5px solid #090909;
+	border-bottom: 5px solid #bf3936;
 	padding-bottom: 3px;
-	padding-left: 28px;
-	background: url(../images/arrow.png) no-repeat 0 9px;
-	margin-bottom: 16px;
+	text-align: center;
+		margin-bottom: 16px;
 }
 
 .content-box ul li {
@@ -162,7 +162,7 @@ margin-bottom: 20px;
 }
 
 #footer {
-	background: #e2e2e2;
+	background: #e7b3b6;
 	padding: 25px 0 29px 0;
 }
 
@@ -183,8 +183,8 @@ margin-bottom: 20px;
 
 #footer-content ul li {
 	float: left;
-	padding: 0 7px;
-	border-left: 1px solid #5d5d5d;
+	padding-right: 30px;
+
 	line-height: 1;
 }
 
