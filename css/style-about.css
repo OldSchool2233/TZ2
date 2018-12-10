@@ -2,13 +2,13 @@
 
 body {
 	font: 14px/1.6 Museo Slab, slab-serif;
-	color: #5d5d5d;
-	background: white;
+	color: #e5f4ff;
+	background: #020d13;
 
 }
 
 a {
-	color: #bf3936;
+	color: #e5f4ff;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -16,12 +16,11 @@ a {
 
 h2 {
 	font-size: 22px;
-	
 	margin-bottom: 11px;
 }
 
 .active, a:hover {
-	color: #090909;
+	color: #eef8ff;
 }
 
 .size {
@@ -47,12 +46,12 @@ text-align: center;
 }
 
 #top-line {
-	background: #bf3936;
+	background: #0d232d;
 	height: 16px;
 }
 
 #wrapper {
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -76,23 +75,24 @@ text-align: center;
 }
 
 #menu {
-	float: right;
-	margin-top: 40px;
+	float: center;
+	margin-top: 20px;
 }
 
 #menu ul li {
 	float: left;
-	margin-left: 87px;
+	margin-left: 80px;
 }
 
 #content {
 	height: 630px;
 	padding-top: 20px;
 	overflow: hidden;
+	margin-left: 90px;
 }
 
 #footer {
-	background: #e7b3b6;
+	background: #060f1a;
 	padding: 20px 0 20px 0;
 }
 
@@ -106,14 +106,14 @@ text-align: center;
 }
 
 #footer-content a {
-	color: #5d5d5d;
+	color: #a8f2ff;
 	font-weight: normal;
 	text-transform: capitalize;
 }
 
 #footer-content ul li {
 	float: left;
-	padding-right: 30px;
+	padding-right: 145px;
 	line-height: 1;
 }
 
@@ -123,4 +123,5 @@ text-align: center;
 .youtube {
 	
 	margin-bottom: 20px;
+	margin-left: 90px;
 }

@@ -2,29 +2,29 @@
 
 body {
 	font: 14px/1.6 Museo Slab, slab-serif;
-	color: #5d5d5d;
-	background: white;
+	color: #e5f4ff;
+	background: #020d13;
 }
 
 a {
-	color: #bf3936;
+	color: #e5f4ff;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .active, a:hover {
-	color: #090909
+	color: #eef8ff
 }
 
 p {
-	margin: 8px 0;
+	margin: 4px 0;
 }
 
 h3 {
-font-size: 12px;
+font-size: 14px;
 font-weight: bold;
-color: #090909;
+color: #e0fcff;
 text-transform: uppercase;
 background-image: url(../images/arrow.png) no-repeat 0 6px;
 padding-left: 23px;
@@ -32,12 +32,12 @@ margin-bottom: 20px;
 }
 
 #top-line {
-	background: #bf3936;
+	background: #0d232d;
 	height: 16px;
 }
 
 #wrapper {
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -54,35 +54,34 @@ margin-bottom: 20px;
 }
 
 #menu {
-	float: right;
-	margin-top: 40px;
+	float: center;
+	margin-top: 20px;
 }
 
 #menu ul li {
 	float: left;
-	margin-left: 87px;
+	margin-left: 80px;
 }
 
 #header-image {
 	height: 380px;
 	background:url(../images/header-image.jpg) no-repeat;
-	margin-top: 20px;
-	border-bottom: 1px solid #c0c0c0;
-	padding-bottom: 20px;
+	margin-top: 10px;
+	padding-bottom: 10px;
 	position: relative;
+	margin-left: 125px;
 }
 
 #black-box {
 	width: 443px;
-	height: 43px;
-	background: #090909;
+	height: 33px;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 15px;
-	color:#999898;
+	font-size: 16px;
+	color:#bbe8ff;
 	position: absolute;
-	left: 35px;
-	bottom: 68px;
+	left: 135px;
+	bottom: 12px;
 
 }
 
@@ -92,7 +91,7 @@ margin-bottom: 20px;
 }
 
 #black-box a {
-	float: right;	
+	float: center;	
 }
 
 #black-box a:hover {
@@ -109,19 +108,19 @@ margin-bottom: 20px;
 .content-box {
 	width: 285px;
 	float: left;
-	margin-right: 52px;
+	margin-left: 90px;
 }
 
 #content-box {
-	margin-right: 0;
+	margin-right: 0px;
 }
 
 .content-box h2 {
 	font-size: 18px;
 	font-weight: bold;
-	color: #090909;
+	color: #e0fcff;
 	text-transform: uppercase;
-	border-bottom: 5px solid #bf3936;
+	border-bottom: 5px solid #e5f4ff;
 	padding-bottom: 3px;
 	text-align: center;
 		margin-bottom: 16px;
@@ -148,7 +147,7 @@ margin-bottom: 20px;
 
 #blog {
 	width: 670px;
-	float: left;
+	margin-left: 420px;
 }
 
 #social {
@@ -162,7 +161,7 @@ margin-bottom: 20px;
 }
 
 #footer {
-	background: #e7b3b6;
+	background: #060f1a;
 	padding: 25px 0 29px 0;
 }
 
@@ -176,15 +175,14 @@ margin-bottom: 20px;
 }
 
 #footer-content a {
-	color: #5d5d5d;
+	color: #a8f2ff;
 	font-weight: normal;
 	text-transform: capitalize;
 }
 
 #footer-content ul li {
 	float: left;
-	padding-right: 30px;
-
+	padding-right: 145px;
 	line-height: 1;
 }
 
